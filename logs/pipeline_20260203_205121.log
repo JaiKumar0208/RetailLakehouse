@@ -1,0 +1,11 @@
+2026-02-03 20:51:21,169 | INFO | retail_lakehouse | Logging initialized
+2026-02-03 20:51:21,169 | INFO | retail_lakehouse | Log file: D:\Python_Projects\RetailLakehouse\logs\pipeline_20260203_205121.log
+2026-02-03 20:51:21,169 | INFO | retail_lakehouse | RetailLakehouse Pipeline Started
+
+2026-02-03 20:51:21,403 | INFO | retail_lakehouse | Starting: extract_inventory_movements_to_parquet
+2026-02-03 20:51:21,443 | INFO | retail_lakehouse | Completed: extract_inventory_movements_to_parquet
+
+2026-02-03 20:51:21,452 | INFO | retail_lakehouse | Starting: extract_master_data
+2026-02-03 20:51:21,497 | INFO | retail_lakehouse | Completed: extract_master_data
+
+2026-02-03 20:51:21,497 | INFO | retail_lakehouse | Pipeline Finished Successfully!

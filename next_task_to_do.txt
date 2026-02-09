@@ -1,0 +1,68 @@
+1️⃣ Python ETL Scripts
+
+Options:
+
+Azure Data Factory (ADF) – good for visual pipelines, can run Python scripts via “Custom Activity” in a batch way.
+
+Azure Synapse Pipelines – similar to ADF, more enterprise-level analytics, usually for very large scale.
+
+Azure Databricks – fully Python/Notebook friendly, optimized for data transformations, works well with Parquet and large datasets.
+
+Recommendation for you:
+
+✅ Azure Databricks
+
+Reasons:
+
+Your ETL is already in Python – no need to rewrite in another language.
+
+Handles Parquet files, transformations, and gold layer very efficiently.
+
+Works seamlessly with ADLS (Data Lake).
+
+Supports incremental load, pandas, PySpark, etc.
+
+Easy to schedule jobs and monitor pipeline runs.
+
+ADF is good if you want more “click-and-drag” pipelines, but since your project is Python-heavy and already structured, Databricks is the cleanest fit.
+
+2️⃣ Logging & Metadata
+
+Options:
+
+Azure SQL Database – fully managed, easy to connect with Python (SQLAlchemy).
+
+Azure SQL Managed Instance – more enterprise-grade, almost like full SQL Server in cloud.
+
+Recommendation for you:
+
+✅ Azure SQL Database
+
+Reasons:
+
+Fully managed – no server maintenance.
+
+Works well with SQLAlchemy (your current ORM setup).
+
+Perfect for ETL run logs and step logs.
+
+Cost-effective for your project size.
+
+Easy to connect with both Databricks and ADF if needed later.
+
+Managed Instance is overkill unless you need full SQL Server features or very high-scale enterprise.
+
+Summary Table (Best Fit)
+Component	Best Option	Why
+Python ETL scripts	Azure Databricks	Native Python support, efficient with Parquet, scalable, easy to schedule jobs
+Logging & metadata	Azure SQL Database	Fully managed, integrates with Python, cost-effective, easy to use
+
+If you want, I can create a step-by-step plan showing exactly:
+
+How to move your Python ETL scripts to Databricks
+
+How to connect to ADLS for raw/processed/gold layers
+
+How to log ETL runs into Azure SQL Database
+
+How to schedule the ETL pipeline

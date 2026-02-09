@@ -1,0 +1,5 @@
+2026-02-03 20:04:42,864 | INFO | retail_lakehouse | Logging initialized
+2026-02-03 20:04:42,864 | INFO | retail_lakehouse | Log file: D:\Python_Projects\RetailLakehouse\logs\pipeline_20260203_200442.log
+2026-02-03 20:04:42,864 | INFO | retail_lakehouse | RetailLakehouse Pipeline Started
+
+2026-02-03 20:04:43,112 | CRITICAL | retail_lakehouse | PIPELINE STOPPED DUE TO ERROR

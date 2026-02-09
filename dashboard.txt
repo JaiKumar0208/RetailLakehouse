@@ -1,0 +1,20 @@
+📊 Revenue dashboards
+🏬 Store comparisons
+🛍 Product insights
+👥 Customer value
+💳 Payment analysis
+📦 Inventory tracking
+
+📈 Total Sales Trend (Line chart)
+🏬 Sales by Store (Bar chart)
+📦 Top Products (Table)
+👥 Sales by Customer City (Map)
+💰 Daily Revenue KPI Card
+
+Validating the gold layer – check that all dimensions and fact tables have correct data.
+
+Preparing for reporting – building datasets for Power BI or any analytics.
+
+Optional: Orchestration improvements – like scheduling the pipeline or handling
+
+Incremental Load handle - on hold
